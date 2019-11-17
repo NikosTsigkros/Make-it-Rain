@@ -1,22 +1,31 @@
 <!Doctype HTML>
+
 <head>
+  <title>Make it Rain</title>
   <!-- BOOTSTRAP -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!-- css FILE -->
   <link rel="stylesheet" href="style.css">
 </head>
 
+<!-- body -------------------------------------------------->
+
 <body>
 
 
-<div class="h-100 text-center">
+  <div class="h-100 text-center">
 
-  <h1>Click on the canvas as many times as you want to make it rain!</h1>
-  <canvas id="can" width="600" height="400" onmousedown="addDrop(event)"> </canvas>
+    <h1 class="titles">Click on the canvas to make it rain!</h1>
+    <h2 class="titles">(more clicks = more drops)</h2>
 
-</div>
+    <canvas id="can"> </canvas>
+    </br>
+    <button id="bd" class="btn btn-danger">Stop the Rain</button>
+    <button id="stormButton" class="btn btn-info">STORM</button>
+  </div>
 
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>

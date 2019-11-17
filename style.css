@@ -6,11 +6,11 @@ body {
   background-size: auto;
   }
 
-h1 {
+.titles {
   color: white;
 }
 
-h1:hover {
+.titles:hover {
   color: blue;
   text-shadow: -5px -5px 0 #fff,
               5px -5px 0 #fff,
