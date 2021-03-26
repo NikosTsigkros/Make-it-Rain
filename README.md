@@ -26,7 +26,7 @@ Finally there is a "Storm" button as an option to make all the 5 sections activa
 
 #
 
-## Galery
+## Gallery
 
 ![alt text](/repo-images/mir1.png)
 ![alt text](/repo-images/mir2.png)
