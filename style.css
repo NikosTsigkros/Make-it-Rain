@@ -1,29 +1,23 @@
 body {
-  background-image: url("https://www.dropbox.com/s/or796zg33z3xa5u/rain-316579.jpg?dl=1");
-  #cccccc
-
-
-  background-size: auto;
-  }
+    background-image: url("https://www.dropbox.com/s/or796zg33z3xa5u/rain-316579.jpg?dl=1");
+    background-size: auto;
+}
 
 .titles {
-  color: white;
+    color: white;
 }
 
 .titles:hover {
-  color: blue;
-  text-shadow: -5px -5px 0 #fff,
-              5px -5px 0 #fff,
-              -5px -5px 0 #fff,
-              5px -5px 0 #fff;
+    color: blue;
+    text-shadow: -5px -5px 0 #fff, 5px -5px 0 #fff, -5px -5px 0 #fff,
+        5px -5px 0 #fff;
 }
 
 #div1 {
-  display: table-cell;
-  vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #can {
-  border: solid 1px black;
-
+    border: solid 1px black;
 }
